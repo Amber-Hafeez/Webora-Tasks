@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sawaiba Amber | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="brand">Amber <i class="fa-solid fa-code"></i></a>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" aria-label="Toggle theme"><i class="fa-regular fa-sun"></i></button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="dots"></div>
+
+    <div class="hero-text">
+      <p class="hello">Hello, I'm</p>
+      <h1>Sawaiba <span>Amber</span></h1>
+      <p class="roles"><strong>Software Engineer</strong> | <strong>Web Developer</strong> | CS Student</p>
+      <div class="accent-line"></div>
+      <p class="intro">I am a passionate Computer Science student who loves building creative and user-friendly web experiences.</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-fill"><i class="fa-solid fa-user"></i> About Me</a>
+        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-envelope"></i> Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <img src="profile.jpg" alt="Amber Hafeez">
+    </div>
+  </section>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about" class="card about">
+      <div class="about-left">
+        <h2><i class="fa-solid fa-user"></i> About Me</h2>
+        <p>Hi! I'm <strong>Sawaiba Amber</strong>. I'm a Computer Science student with a strong interest in web development and programming. I enjoy learning new technologies and turning ideas into real projects.</p>
+      </div>
+      <div class="about-right">
+        <p><i class="fa-solid fa-graduation-cap"></i> <span>BS Computer Science<br><small>(GGC Hafizabad)</small></span></p>
+        <p><i class="fa-solid fa-location-dot"></i> <span>Hafizabad, Pakistan</span></p>
+        <p><i class="fa-solid fa-heart"></i> <span>Dream: Study + Work in Australia</span></p>
+      </div>
+    </section>
+
+    <div class="two-col">
+      <!-- SKILLS -->
+      <section id="skills" class="card">
+        <h2><i class="fa-solid fa-code"></i> My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+          <div class="skill"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+          <div class="skill"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+          <div class="skill"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+          <div class="skill"><i class="devicon-csharp-plain colored"></i><span>C#</span></div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="card contact">
+        <h2><i class="fa-solid fa-envelope"></i> Contact Me</h2>
+        <ul>
+          <li><i class="fa-solid fa-envelope"></i> <a href="amber.hafeez815@gmail.com">amber.hafeez815@gmail.com</a></li>
+          <li><i class="fa-brands fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/amber-hafeez-594073362?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">linkedin.com/in/amber-hafeez</a></li>
+          <li><i class="fa-brands fa-github"></i> <a href="https://github.com/Amber-Hafeez/Webora-Tasks.git" target="_blank" rel="noopener">Amber Hafeez</a></li>
+        </ul>
+
+        <svg class="laptop" viewBox="0 0 220 130" aria-hidden="true">
+          <path d="M150 20c10-18 30-20 40-10-6 14-22 22-40 10z" fill="#7c4dff"/>
+          <rect x="185" y="70" width="22" height="30" rx="3" fill="#7c4dff"/>
+          <rect x="30" y="18" width="130" height="80" rx="8" fill="#1a1440" stroke="#9b7bff" stroke-width="4"/>
+          <text x="95" y="68" font-size="30" fill="#9b7bff" text-anchor="middle" font-family="monospace">&lt;/&gt;</text>
+          <path d="M10 104h170l-10 12H20z" fill="#7c4dff"/>
+        </svg>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <span class="line"></span>
+    <p>&copy; 2026 Amber Hafeez. All rights reserved.</p>
+    <span class="line"></span>
+    <button id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
